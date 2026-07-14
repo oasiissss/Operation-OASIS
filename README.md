@@ -1,38 +1,31 @@
-# Operation OASIS — v1.4 Alpha
+# Operation OASIS — v2.0 Gameplay Alpha
 
-Eerste geïntegreerde, speelbare alpha.
+Deze build vervangt de blokkenkaart door een eerste herkenbare, interactieve Nederlandkaart.
 
-## Werkend in deze build
+## Nieuw
 
-- Laadscherm
-- Hoofdmenu
-- Selectie van 2–4 spelers
-- Selectie van 5–30 rondes of oneindig
-- Vier facties
-- Drie darts per beurt
-- Single, Double en Triple
-- Bull en Operation OASIS
-- Miss
-- Scores
-- Gebiedseigenaarschap
-- Connected Territory-bonus
-- Winnaar na de laatste ronde
-- Terug naar hoofdmenu
+- Interactieve Nederlandkaart met 20 gebieden
+- Waddeneilanden als aparte gebieden
+- Amsterdam en Arnhem als aparte gebieden
+- Hover- en selectiefeedback
+- Gebieden kleuren direct naar de eigenaar
+- Single, Double, Triple, Bull en Miss geïntegreerd
+- Connected Territory-bonus gekoppeld
+- Verbeterde commandocentrum-layout
+- Scorepaneel, missielog en beurtinformatie opnieuw ingedeeld
 
-De kaart gebruikt in deze alpha nog territoriumkaarten. De geografische Nederlandkaart en definitieve vormgeving volgen later.
-
-## Installeren
-
-Node.js 20.19 of nieuwer:
+## Starten
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Productiebuild testen
+## Productiebuild
 
 ```bash
 npm run build
 npm run preview
 ```
+
+De kaartvorm is nog een gameplayversie. De exacte geografische grenzen en definitieve grafische assets volgen in latere builds.
